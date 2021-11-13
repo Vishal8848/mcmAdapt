@@ -1,0 +1,25 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "MCM Products API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/products/Aug/sales": {
+            "get": {
+                "summary": "Products",
+                "responses": {
+                    "200": {
+                        "description": "Products Description"
+                    },
+                    "default": {
+                        "description": "Error Occurred"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
